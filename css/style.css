@@ -1681,3 +1681,25 @@ body {
         font-weight: 400;
     }
 }
+
+.visual_box figure {
+
+    max-width: 1578px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.visual_box figure img {
+    position: relative;
+    width: 1000px;
+}
+
+.visual_box strong {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    font-size: 54px;
+    color: #fff;
+
+}
