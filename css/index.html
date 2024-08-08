@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAC연습하기</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner">
+            <h1><a href=""><img src="./images/whitelogo.png" alt=""></a></h1>
+            <div class="swiper header_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide itm">
+                        <a href="">
+                            <p>맥 40주년을 맞아 동화처럼 돌아온 디즈니 컬렉션</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide itm">
+                        <a href="">
+                            <p>공식몰 단독, SUMMER BASE WEEK</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide itm">
+                        <a href="">
+                            <p> BEST 로즈톤업베이스 구매시, 세러마이저 증정 </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide itm">
+                        <a href="">
+                            <p>미세한 안개 분사 타입 스프레이로 업그레이드된 픽스+</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="utils">
+                <a href=""><i class="xi-search"></i> </a>
+                <a href=""><i class="xi-user-o"></i> </a>
+                <a href=""><i class="xi-basket"></i> </a>
+            </div>
+            <button class="mbtn">mobile menu</button>
+        </div>
+        <nav class="gnb">
+            <ul>
+                <li>
+                    <a href="" class="b">공식몰 단독 혜택</a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropmain01.avif" alt=""></figure>
+                                <strong>썸머 베이스 위크</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropmain02.avif" alt=""></figure>
+                                <strong>매장 안내</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./index02.html">
+                                <figure><img src="./images/dropmain03.avif" alt=""></figure>
+                                <strong>비츄얼 트라이 온</strong>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="">신제품</a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropnew01.avif" alt=""></figure>
+                                <strong>롱 라스팅 파운데이션</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropnew02.avif" alt=""></figure>
+                                <strong>비쥬얼 팩트</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropnew03.avif" alt=""></figure>
+                                <strong>어라이브 페이스 아이템</strong>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="">베스트셀러</a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropbest01.avif" alt=""></figure>
+                                <strong>Fall 베이스 위크</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropbest02.avif" alt=""></figure>
+                                <strong>맥시멀 실키 매트 립스틱</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropbest03.avif" alt=""></figure>
+                                <strong>맥스택 워터프루프 마스카라</strong>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="">립</a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/droplip01.avif" alt=""></figure>
+                                <strong>맥시멀 실키 매트 립스틱</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/droplip02.avif" alt=""></figure>
+                                <strong>글로우 플레이 텐더 로드 스틱</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/droplip03.avif" alt=""></figure>
+                                <strong>스쿼트 플러핑 글로스 립밤</strong>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="">페이스</a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropface01.avif" alt=""></figure>
+                                <strong>스튜디오 픽스 롱웨어 쿠션 파운데이션</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropface02.avif" alt=""></figure>
+                                <strong>스튜디오 픽스 스킨 밸런싱 콤플렉스 파운데이션</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropface03.webp" alt=""></figure>
+                                <strong>Fall 베이스 위크</strong>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="">아이</a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropeye01.webp" alt=""></figure>
+                                <strong>맥스택 워터프루프 마스카라</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropeye02.avif" alt=""></figure>
+                                <strong>맥 컬러 엑세스 젤 펜슬 아이라이너</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropeye03.avif" alt=""></figure>
+                                <strong>커넥트 인 컬러 아이섀도우 팔레트</strong>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="">스킨케어</a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropskin01.avif" alt=""></figure>
+                                <strong>하이퍼 리얼 래디언트 캔버스 스킨 케어</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropskin02.avif" alt=""></figure>
+                                <strong>스킨 아티스트리</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure><img src="./images/dropface03.webp" alt=""></figure>
+                                <strong>Fall 스킨 베이스 위크</strong>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="main">
+        <section class="main_visual">
+            <div class="cover">
+                <h2>M.A.C</h2>
+                <button><i class="xi-angle-down"></i></button>
+            </div>
+            <div class="inner">
+                <div class="itm">
+                    <figure><img src="./images/main_visual01.avif" alt=""></figure>
+                </div>
+                <div class="itm">
+                    <figure><img src="./images/main_visual02.avif" alt=""></figure>
+                </div>
+                <div class="itm">
+                    <figure><img src="./images/main_visual03.avif" alt=""></figure>
+                </div>
+                <div class="itm">
+                    <figure><img src="./images/main_visual04.avif" alt=""></figure>
+                </div>
+                <div class="itm">
+                    <figure><img src="./images/main_visual06.avif" alt=""></figure>
+                </div>
+                <div class="itm">
+                    <figure><img src="./images/main_visual09.avif" alt=""></figure>
+                </div>
+                <div class="itm">
+                    <figure><img src="./images/main_visual07.avif" alt=""></figure>
+                </div>
+                <div class="itm">
+                    <figure><img src="./images/main_visual08.avif" alt=""></figure>
+                </div>
+            </div>
+
+        </section>
+        <section class="main_content">
+            <div class="title" data-aos="fade-up">
+                <p>영롱한 골드 디자인에 화려하고 정교한 아라비안 문양이 새겨진</p>
+                <h2>DISNEY'S ALADDIN</h2>
+            </div>
+            <div class="swiper main_content_slide" data-aos="fade-up" data-aos-delay="1000">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide itm">
+                        <figure><img src="./images/main_content01.avif" alt=""></figure>
+                        <strong>ALADDIN MATTE LIPSTICK </strong>
+                        <p>프린세스 ₩ 37,000</p>
+                        <div class="order"><a href="">구매하기</a></div>
+                    </div>
+                    <div class="swiper-slide itm">
+                        <figure><img src="./images/main_content02.avif" alt=""></figure>
+                        <strong>ALADDIN EYE SHADOW X9 </strong>
+                        <p> 인코그니토 ₩ 68,000</p>
+                        <div class="order"><a href="">구매하기</a></div>
+
+                    </div>
+                    <div class="swiper-slide itm">
+                        <figure><img src="./images/main_content03.avif" alt=""></figure>
+                        <strong>ALADDIN 24HR LIPCOLOURK </strong>
+                        <p>프린세스 ₩ 35,000</p>
+                        <div class="order"><a href="">구매하기</a></div>
+                    </div>
+                    <div class="swiper-slide itm">
+                        <figure><img src="./images/main_content04.avif" alt=""></figure>
+                        <strong>CINDERELLA PIGMENT COLOR POWDER </strong>
+                        <p>인코그니토 ₩ 58,000</p>
+                        <div class="order"><a href="">구매하기</a></div>
+                    </div>
+                    <div class="swiper-slide itm">
+                        <figure><img src="./images/main_content05.avif" alt=""></figure>
+                        <strong>ALADDIN EYE SHADOW Y30</strong>
+                        <p>프린세스 인코그니토 ₩ 72,000</p>
+                        <div class="order"><a href="">구매하기</a></div>
+                    </div>
+                </div>
+
+                <div class="arrows">
+                    <button class="prev"><i class="xi-angle-left"></i></button>
+                    <button class="next"><i class="xi-angle-right"></i></button>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="main_movie">
+            <div class="inner">
+                <div class="left">
+                    <div class="title">
+                        <span>M.A.C 40주년을 맞아 마법처럼 돌아온</span>
+                        <h2>NEW 맥시멀 실키 립스틱</h2>
+                        <p>맥과 디즈니의 만남! 동화 속 세계로 당신을 초대합니다.<br />
+                            알라딘, 신데렐라, 말레피센트까지
+                            꿈처럼 신비롭고 다채로운 디즈니 컬렉션을 만나보세요.</p>
+                    </div>
+                    <div class="button_box">
+                        <button class="play"><i class="xi-play"></i></button>
+                        <button class="pause"><i class="xi-pause"></i></button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="bgndVideo" class="player"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="main_product">
+            <div class="title" data-aos="fade-up">
+                <h2>PRODUCT NEW TYPE</h2>
+                <p>click product!</p>
+                <div class="tab_wrap">
+                    <ul class="tap_menu inner">
+                        <li class="on">
+                            <button>
+                                <figure><img src="./images/product_inner_face.avif" alt=""></figure>
+                                <strong>FACE</strong>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <figure><img src="./images/product_inner_cheek.avif" alt=""></figure>
+                                <strong>CHEEK</strong>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <figure><img src="./images/product_inner_eye.avif" alt=""></figure>
+                                <strong>EYE</strong>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <figure><img src="./images/product_inner_lip.avif" alt=""></figure>
+                                <strong class="s">LIP</strong>
+                            </button>
+                        </li>
+                    </ul>
+
+
+
+                    <div class="tap_con inner" data-aos="fade-up" data-aos-delay="1000">
+
+
+                        <div class="swiper main_product_slide ts on">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_face01.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>BLOT POWDER</strong>
+                                        <p>63000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_face02.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>LONGWEAR FOUNDATION</strong>
+                                        <p>35000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_face03.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong> SMOOTH WEAR CONCEALER</strong>
+                                        <p>57000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_face04.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>CORRECT PALETTE</strong>
+                                        <p>29000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_face05.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>DIMENSION SKINFINISH</strong>
+                                        <p>60000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_face06.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>MINERALIZE SKINFINISH</strong>
+                                        <p>45000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrows">
+                                <button class="prev"><i class="xi-angle-left"></i></button>
+                                <button class="next"><i class="xi-angle-right"></i></button>
+
+                            </div>
+                        </div>
+                        <div class="swiper main_product_slide ts">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+
+                                    <figure><img src="./images/product_cheek01.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>Blanc Cheek</strong>
+                                        <p>45000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <figure><img src="./images/product_cheek02.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>Pressed Brush</strong>
+                                        <p>45000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <figure><img src="./images/product_cheek03.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>Blanc Cheek</strong>
+                                        <p>45000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <figure><img src="./images/product_cheek04.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>Pressed Brush</strong>
+                                        <p>45000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <figure><img src="./images/product_cheek05.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>Blanc Cheek</strong>
+                                        <p>45000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <figure><img src="./images/product_cheek03.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>Pressed Brush</strong>
+                                        <p>45000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="arrows">
+                                <button class="prev"><i class="xi-angle-left"></i></button>
+                                <button class="next"><i class="xi-angle-right"></i></button>
+
+                            </div>
+                        </div>
+                        <div class="swiper main_product_slide ts">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_eye01.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>아이 섀도우 X9 </strong>
+                                        <p>69000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_eye02.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>테디 테이크오버 아이 & 페이스 팔레트 </strong>
+                                        <p>89000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_eye04.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>피그먼트 컬러 파우더 </strong>
+                                        <p>38000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_eye05.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>커넥트 인 컬러 아이 섀도우 팔레트 X6</strong>
+                                        <p>69000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_eye01.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>엑스트라 디멘션 아이섀도우</strong>
+                                        <p>35000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/product_eye03.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>테디 테이크오버 아이 & 페이스 팔레트</strong>
+                                        <p>44000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrows">
+                                <button class="prev"><i class="xi-angle-left"></i></button>
+                                <button class="next"><i class="xi-angle-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="swiper main_product_slide ts">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/tab01.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>맥시멀 실키 매트 립스틱
+                                        </strong>
+                                        <p>38000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/tab02.webp" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>락드 키스 잉크 24아워 립컬러</strong>
+                                        <p>48000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/tab03.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>락드 키스 24아워 립스틱</strong>
+                                        <p>35000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/tab04.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>스쿼트 플럼핑 글로스 스틱</strong>
+                                        <p>37000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/tab05.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>파우더 키스 벨벳 블러 슬림 스틱</strong>
+                                        <p>44000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure><img src="./images/tab06.avif" alt=""></figure>
+                                    <div class="desc">
+                                        <strong>러스터글래스 립스틱</strong>
+                                        <p>35000원</p>
+                                        <div class="order"><a href="">구매하기</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrows">
+                                <button class="prev"><i class="xi-angle-left"></i></button>
+                                <button class="next"><i class="xi-angle-right"></i></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="main_palette">
+            <div class="inner">
+                <div class="title" data-aos="fade-right">
+                    <span>글로벌 디렉터 TERRY BARBER가 추천하는 2024년 hot color!</span>
+                    <h2>Click! Palette Color!</h2>
+                    <p>최애 팔레트 속 color을 클릭하면 어울리는 <br />추천 lipstick을 만날 수 있어요.</p>
+                    <figure>
+                        <img src="./images/artpotp.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="palette">
+                    <ul class="tab_menu">
+                        <li><button style="background-color: #fd94b4;">01</button></li>
+                        <li><button style="background-color:#ff4b9a ;">02</button></li>
+                        <li><button style="background-color:#faa1a1;">03</button></li>
+                        <li><button style="background-color:#de8183;">04</button></li>
+                        <li><button style="background-color: #fa0633;">05</button></li>
+                        <li><button style="background-color: #8a061e;">06</button></li>
+                    </ul>
+                    <div class="tab_itm">
+                        <ul>
+                            <figure class="on"><a href="">
+                                    <img src="./images/tab01.avif" alt="">
+                                    <img class="one" src="./images/tab011.png" alt="">
+                                </a></figure>
+                            <figure><a href="">
+                                    <img src="./images/tab02.webp" alt="">
+                                    <img class="one" src="./images/tab022.webp" alt="">
+                                </a></figure>
+                            <figure><a href="">
+                                    <img src="./images/tab03.avif" alt="">
+                                    <img class="one" src="./images/tab033.avif" alt="">
+                                </a></figure>
+                            <figure><a href="">
+                                    <img src="./images/tab04.avif" alt="">
+                                    <img class="one" src="./images/tab044.avif" alt="">
+                                </a></figure>
+                            <figure><a href="">
+                                    <img src="./images/tab05.avif" alt="">
+                                    <img class="one" src="./images/tab055.avif" alt="">
+                                </a></figure>
+                            <figure><a href="">
+                                    <img src="./images/tab06.avif" alt="">
+                                    <img class="one" src="./images/tab066.avif" alt="">
+                                </a></figure>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="main_colorchip">
+            <div class="title" data-aos="fade-up">
+                <h2>PRODUCT NEW TYPE</h2>
+                <p>click colorchip!</p>
+            </div>
+            <div class="inner" data-aos="fade-up" data-aos-delay="1000">
+                <div class="itm">
+                    <div class="case">
+                        <div class="btn" style="background-color:#5A3E79;">NEW SPECIAL HOLIDAY COLLECTION 2024</div>
+                        <div class="con con06">
+                            <strong>NEW SPECIAL HOLIDAY COLLECTION 2024</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="itm">
+                    <div class="case">
+                        <div class="btn" style="background-color: #A76286;">KITTCH MAKEUP COLLECTION 2024</div>
+                        <div class="con con05">
+                            <strong>KITTCH MAKEUP COLLECTION 2024</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="itm on">
+                    <div class="case">
+                        <div class="btn" style="background-color: #E493B3;">LOVELY EYE COLLECTION 2024</div>
+                        <div class="con con04">
+                            <strong>LOVELY EYE COLLECTION 2024</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="itm ">
+                    <div class="case">
+                        <div class="btn" style="background-color: #F8AFA6;">NEW HOLIDAY COLLECTION 2024</div>
+                        <div class="con con03">
+                            <strong>NEW HOLIDAY COLLECTION 2024</strong>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="itm">
+                    <div class="case">
+                        <div class="btn" style="background-color: #F79489;">HOT FACE COVER COLLECTION 2024</div>
+                        <div class="con con02">
+                            <strong>HOT FACE COVER COLLECTION 2024</strong>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="itm ">
+                    <div class="case">
+                        <div class="btn" style="background-color: #f07167;"> BEST EYE SHADOW COLLECTION 2024</div>
+                        <div class="con con01">
+                            <strong>BEST EYE SHADOW COLLECTION 2024</strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="main_review">
+            <div class="title">
+                <span>맥과 함께한 경험이 어떠셨나요?</span>
+                <h2>REVIEW EVENT</h2>
+                <p>공식몰 구매 후 리뷰를 남겨주신 분들 중 다섯 분을 <br />선정하여 특별한 선물을 드립니다.
+                    당신의 소중한 후기를 기다립니다!
+                </p>
+                <div class="btn_box"><a href="">참여하기</a></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="ft">
+            <div class="inner">
+                <div class="store_box">
+                    <strong>
+                        <span><strong style="margin: 0 6px 0 0; color: #fff;">M.A.C</strong>store</span>
+                    </strong>
+                    <p><a style="font-size: 12px;" href="">가까운 매장찾기</a></p>
+
+                    <form action="" id="search">
+                        <input type="text" name="search">
+                        <button>
+                            <i class="xi-search"></i>
+                        </button>
+                    </form>
+                </div>
+
+
+                <ul class="customer_list">
+                    <span>고객관리지원팀</span>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="">02-6971-3291</a></li>
+                    <li><a href="">FAQS</a></li>
+                    <li><a href="">배송정보</a></li>
+                    <li><a href="">반품 및 교환</a></li>
+                </ul>
+                <ul class="about_list">
+                    <span>ABOUT US</span>
+                    <li><a href="">OUR STORY</a></li>
+                    <li><a href="">맥 에이즈 펀드</a></li>
+                    <li><a href="">맥 프로 멤버십</a></li>
+                    <li><a href="">나의 맥 러버</a></li>
+                    <li><a href="">채용 정보</a></li>
+                    <li><a href="">ANIMAL TESTING</a></li>
+                </ul>
+
+                <ul class="myinfo_list">
+                    <span> 내 정보 및 주문관리</span>
+                    <li><a href="">내 정보 확인 및 수정</a></li>
+                    <li><a href="">주문 조회</a></li>
+                    <li><a href="">장바구니 조회</a></li>
+                    <li><a href="">위시리스트</a></li>
+                    <li><a href=""> MY COUPON</a></li>
+                </ul>
+                <div class="utils_box">
+                    <ul class="utils_list">
+                        <li> <a href=""><i class="xi-instagram"></i> </a></li>
+                        <li> <a href=""><i class="xi-facebook"></i> </a></li>
+                        <li> <a href=""><i class="xi-kakaotalk"></i> </a></li>
+                        <li><a href=""><i class="xi-youtube"></i> </a></li>
+                    </ul>
+                    <select id="f_lnk">
+                        <option value="">family link</option>
+                        <option value="https://www.naver.com/">MY M.A.C</option>
+                        <option value="https://daum.net/">my Beauty</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="fb inner">
+            <ul class="customer">
+
+                <li><a href="">이용약관</a></li>
+                <li><a href="" class="b">개인정보처리방침</a></li>
+                <li><a href="">COOKIE 관리</a></li>
+            </ul>
+            <address>&copy; MAKE-UP ART COSMETICS. ALL WORLDWIDE RIGHTS RESERVED.</address>
+
+        </div>
+    </footer>
+</body>
+
+</html>
