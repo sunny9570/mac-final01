@@ -9,8 +9,6 @@ body {
 }
 
 
-
-
 .header {
     position: fixed;
     top: 0;
@@ -487,7 +485,7 @@ body {
 
 @media (max-width: 768px) {
     .main_content {
-        padding: 160px 0;
+        padding: 100px 0;
     }
 
     .main_content .title h2 {
@@ -654,7 +652,6 @@ body {
     }
 }
 
-
 .main_product {
     padding: 200px 0 210px 0;
 }
@@ -720,7 +717,6 @@ body {
     display: block;
     text-align: center;
     margin: 0 0 16px 0;
-
 }
 
 .main_product .main_product_slide .desc p {
@@ -733,7 +729,6 @@ body {
 .main_product .main_product_slide .desc .order {
     text-align: center;
     color: #fff;
-
 }
 
 .main_product .main_product_slide .desc .order a {
@@ -742,7 +737,6 @@ body {
     padding: 10px 24px;
     align-items: center;
     text-align: center;
-
 }
 
 .main_product .arrows {
@@ -777,10 +771,8 @@ body {
 
 @media (max-width: 768px) {
     .main_product {
-        padding: 160px 0 160px 0;
+        padding: 100px 0 100px 0;
     }
-
-    .main_product {}
 
     .main_product .title {}
 
@@ -838,14 +830,11 @@ body {
         height: auto;
     }
 
-    .main_product .main_product_slide .desc {}
-
     .main_product .main_product_slide .desc strong {
         display: block;
         text-align: center;
         margin: 0 0 16px 0;
         min-height: 36px;
-
     }
 
     .main_product .main_product_slide .desc p {
@@ -858,7 +847,6 @@ body {
     .main_product .main_product_slide .desc .order {
         text-align: center;
         color: #fff;
-
     }
 
     .main_product .main_product_slide .desc .order a {
@@ -868,7 +856,6 @@ body {
         align-items: center;
         text-align: center;
         font-size: 14px;
-
     }
 }
 
@@ -1108,8 +1095,6 @@ body {
     padding: 200px 0;
 }
 
-.main_colorchip .title {}
-
 .main_colorchip .title h2 {
     text-align: center;
     margin-bottom: 16px;
@@ -1123,7 +1108,6 @@ body {
 
 .main_colorchip .inner {
     display: flex;
-
 }
 
 .main_colorchip .itm {
@@ -1133,6 +1117,7 @@ body {
 
 .main_colorchip .itm.on {
     flex: 1 0 80px;
+    transition: 0.8s;
 }
 
 .main_colorchip .itm .case {
@@ -1144,21 +1129,17 @@ body {
     display: grid;
     width: 80px;
     color: #fff;
-
     writing-mode: vertical-lr;
-
     user-select: none;
     cursor: pointer;
     text-align: center;
     place-items: center;
-
 }
 
 .main_colorchip .itm .case .con {
     flex: 3;
     overflow: hidden;
     white-space: nowrap;
-
 }
 
 .main_colorchip .itm .case .con01 {
@@ -1211,7 +1192,7 @@ body {
 @media (max-width: 768px) {
 
     .main_colorchip {
-        padding: 160px 0;
+        padding: 100px 0;
     }
 
     .main_colorchip .title {}

@@ -128,6 +128,11 @@ $(function () {
         // spaceBetween: 30,
         loop: true,
 
+        navigation: {
+            nextEl: '.main_content .arrows .next',
+            prevEl: '.main_content .arrows .prev',
+
+        },
 
         breakpoints: {
             769: {
